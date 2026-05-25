@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["bun"],
+    "target": "esnext",
+    "module": "preserve",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

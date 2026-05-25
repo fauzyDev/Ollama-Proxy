@@ -1,0 +1,12 @@
+# deps
+node_modules/
+
+# build
+dist/
+
+# local env files
+.env
+
+# logs
+logs/
+*.log
